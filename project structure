@@ -1,0 +1,28 @@
+src/
+|-- components/
+|   |-- Navbar.js
+|   |-- AllProducts.js
+|   |-- ProductDetail.js
+|   |-- CreateProduct.js
+|   |-- Cart.js
+|   |-- SortButton.js
+|-- containers/
+|   |-- AllProductsContainer.js
+|   |-- ProductDetailContainer.js
+|   |-- CreateProductContainer.js
+|   |-- CartContainer.js
+|-- redux/
+|   |-- actions/
+|   |   |-- cartActions.js
+|   |   |-- productActions.js
+|   |-- reducers/
+|   |   |-- cartReducer.js
+|   |   |-- productReducer.js
+|   |   |-- rootReducer.js
+|   |-- store.js
+|-- services/
+|   |-- api.js
+|-- App.js
+|-- index.js
+|-- index.css
+|-- index.html

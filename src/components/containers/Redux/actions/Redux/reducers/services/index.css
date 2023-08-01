@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  
+  /* Main content styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* AllProducts page styles */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* ProductDetail page styles */
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-detail h2 {
+    margin-bottom: 8px;
+  }
+  
+  .product-detail p {
+    margin-bottom: 16px;
+  }
+  
+  /* CreateProduct page styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 8px;
+  }
+  
+  form input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Cart page styles */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-item button {
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
