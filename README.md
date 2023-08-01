@@ -11,7 +11,7 @@ Installation
 Clone the repository to your local machine.
 bash
 Copy code
-git clone https://github.com/your-username/ecommerce-frontend.git
+git clone https://github.com/itstarvendr/Ecommerce-Website-Frontend.git
 Change to the project directory.
 bash
 Copy code
