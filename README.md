@@ -26,7 +26,7 @@ To start the development server, run the following command:
 bash
 Copy code
 npm start
-The application will be available at http://localhost:3000 in your browser.
+
 
 Features
 Navbar: Displays the cart items count and relevant navigation links.
@@ -37,7 +37,6 @@ Cart Page: Displays all the items in the cart and allows removing items from the
 Error Handling: Displays appropriate error alerts for API requests.
 Redux: Uses Redux for state management, making the cart items persistent even after a page refresh.
 API
-The frontend uses a dummy ecommerce API provided by https://my-json-server.typicode.com/. The API provides data for products and handles product creation, edition, and deletion.
 
 Built With
 React - JavaScript library for building user interfaces
